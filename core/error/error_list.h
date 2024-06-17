@@ -75,7 +75,7 @@ enum Error {
 	ERR_CANT_ACQUIRE_RESOURCE,
 	ERR_CANT_FORK,
 	ERR_INVALID_DATA, ///< Data passed is invalid (30)
-	ERR_INVALID_PARAMETER, ///< Parameter passed is invalid
+	ERR_INVALID_ARGUMENT, ///< Argument passed is invalid
 	ERR_ALREADY_EXISTS, ///< When adding, item already exists
 	ERR_DOES_NOT_EXIST, ///< When retrieving/erasing, if item does not exist
 	ERR_DATABASE_CANT_READ, ///< database is full
